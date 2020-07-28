@@ -1,0 +1,183 @@
+body {
+  background-color: #292424;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+}
+
+#container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rectangle {
+  width: 960px;
+  margin: 20px;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.square {
+  width: 50%;
+  float: left;
+}
+
+#logo {
+  float: left;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 70px;
+  width: 600px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+#zegar {
+  float: left;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+  text-align: left;
+}
+
+.tile1 {
+  margin: 10px;
+  width: 230px;
+  height: 142px;
+  background-color: #3095d3;
+  float: left;
+  text-align: center;
+}
+
+.tile1:hover {
+  background-color: #2084c2;
+}
+
+.tile2 {
+  margin: 10px;
+  width: 230px;
+  height: 142px;
+  background-color: #666666;
+  float: left;
+  text-align: center;
+}
+
+.tile2:hover {
+  background-color: #555555;
+}
+
+.tile3 {
+  margin: 10px;
+  width: 230px;
+  height: 142px;
+  background-color: #93c748;
+  float: left;
+  text-align: center;
+}
+
+.tile3:hover {
+  background-color: #82b637;
+}
+
+.tile4 {
+  margin: 10px;
+  width: 420px;
+  height: 82px;
+  background-color: #ee5a92;
+  text-align: center;
+  font-size: 26px;
+  padding: 30px;
+  line-height: 150%;
+}
+
+.tile5 {
+  margin: 10px;
+  width: 420px;
+  height: 244px;
+  background-color: #666666;
+  text-align: center;
+  text-align: justify;
+  padding: 30px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.yt {
+  margin: 10px;
+  width: 105px;
+  height: 142px;
+  background-color: #d94348;
+  float: left;
+}
+
+.yt:hover {
+  background-color: #c83237;
+}
+
+.li {
+  margin: 10px;
+  width: 105px;
+  height: 142px;
+  background-color: #0e76a8;
+  float: left;
+}
+
+.li:hover {
+  background-color: #0d65a7;
+}
+
+.gplus {
+  margin: 10px;
+  width: 105px;
+  height: 142px;
+  background-color: #d95333;
+  float: left;
+}
+
+.gplus:hover {
+  background-color: #c84222;
+}
+
+.gh {
+  margin: 10px;
+  width: 105px;
+  height: 142px;
+  background-color: #333;
+  float: left;
+}
+
+.gh:hover {
+  background-color: #222;
+}
+
+a.tilelink {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  width: 230px;
+  height: 142px;
+}
+
+a.tilelinkhtml5 {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a.sociallink {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  width: 105px;
+  height: 142px;
+}

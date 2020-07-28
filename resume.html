@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Jan Rebek - Portfolio</title>
+
+    <meta
+      name="description"
+      content="I will create a beutiful website for you! Hire a webmaster: PHP, JavaScript, HTML, CSS, MySQL, React, React Native"
+    />
+    <meta
+      name="keywords"
+      content="order, website, programming, www, programmer, portfolio, php, javascript, html, css, mysql, react, native"
+    />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="text/javascript">
+
+        function countTime() {
+    
+        const today = new Date();
+    
+        const day = today.getDate();
+        const month = today.getMonth()+1;
+        const year = today.getFullYear();
+    
+        let hour = today.getHours();
+        if (hour<10) hour = "0"+hour;
+    
+        let minute = today.getMinutes();
+        if (minute<10) minute = "0"+minute;
+    
+        let second = today.getSeconds();
+        if (second<10) second = "0"+second;
+    
+        document.getElementById("zegar").innerHTML = day+"/"+month+"/"+year+"   "+hour+":"+minute+":"+second;
+    
+        setTimeout("countTime()", 1000);
+        };
+    
+        </script>
+
+
+  </head>
+  <body onload="countTime()" >
+    <div id="container" >
+      <div class="rectangle">
+        <div id="logo"><a href="home" class="tilelinkhtml5">Jan Rebek</a></div>
+        <div id="zegar"></div>
+        <script type="text/javascript">
+            document.getElementById("clock").innerHTML = day+"/"+month+"/"+year+"   "+hour+":"+minute+":"+second;
+            </script>
+        <div style="clear: both;"></div>
+      </div>
+
+      <div class="square">
+        <div class="tile1">
+           <a href="about-me" class="tilelink"> <i class="icon-user"></i><br/>About Me </a>
+        </div>
+        <a href="tech-stack" class="tilelinkhtml5"><div class="tile1">
+            <i class="icon-laptop"></i><br/>My Stack
+        </div></a>
+        <div style="clear: both;"></div>
+
+        <div class="tile2">
+            <a href="resume" class="tilelink">
+            <i class="icon-briefcase"></i><br/>My Resume</a>
+        </div>
+        <div class="tile3">
+          <a href="mailto: jan.rebek@outlook.com" class="tilelink">
+            <i class="icon-mail"></i><br/>Contact</a>
+        </div>
+        <div style="clear: both;"></div>
+
+        <div class="tile4"><i>Talk is cheap. Show me the code!</i><br/>-Linus Torvalds, Linux creator</div>
+      </div>
+      <div class="square">
+        <div class="tile5">Resume.html dziala!!! <br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique 
+            eros quis lacus elementum tempor. Sed laoreet vulputate erat quis vulputate. Aliquam vulputate nunc ligula, in 
+            lobortis est rutrum ut. Fusce velit leo, vestibulum sed nibh a, ultricies condimentum justo. </div>
+            <div class="yt">
+              <a href="http://youtube.com" target="_blank" class="sociallink">
+                  <i class="icon-youtube"></i></a>
+          </div>
+          <div class="li">
+              <a href="https://www.linkedin.com/in/janrebek/" target="_blank" class="sociallink">
+              <i class="icon-linkedin-squared"></i></a>
+          </div>
+          <div class="gplus">
+              <a href="http://youtube.com" target="_blank" class="sociallink">
+              <i class="icon-gplus"></i></a>
+          </div>
+          <div class="gh">
+              <a href="https://github.com/JanRebek" target="_blank" class="sociallink">
+                <i class="icon-github-squared"></i></a>
+              </div>
+
+          <div style="clear: both;"></div></a>
+        </div>
+  
+        <div style="clear: both;"></div>
+        <div class="footer">
+          2020 &copy; Jan Rebek - Portfolio. Web developer. <i class="icon-mail-alt"></i> jan.rebek@outlook.com
+        </div>
+    </div>
+    </body>
+  </html>
