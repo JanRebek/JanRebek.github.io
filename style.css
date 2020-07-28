@@ -103,6 +103,7 @@ body {
   text-align: justify;
   padding: 30px;
   font-size: 20px;
+  font-family: "Lato", sans-serif;
 }
 
 a {
@@ -113,16 +114,16 @@ a:hover {
   text-decoration: underline;
 }
 
-.yt {
+.ig {
   margin: 10px;
   width: 105px;
   height: 142px;
-  background-color: #d94348;
+  background-color: #c13584;
   float: left;
 }
 
-.yt:hover {
-  background-color: #c83237;
+.ig:hover {
+  background-color: #b02473;
 }
 
 .li {
@@ -137,16 +138,16 @@ a:hover {
   background-color: #0d65a7;
 }
 
-.gplus {
+.fb {
   margin: 10px;
   width: 105px;
   height: 142px;
-  background-color: #d95333;
+  background-color: #3b5998;
   float: left;
 }
 
-.gplus:hover {
-  background-color: #c84222;
+.fb:hover {
+  background-color: #2a4887;
 }
 
 .gh {
